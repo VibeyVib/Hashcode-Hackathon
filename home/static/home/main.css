@@ -127,14 +127,101 @@ p3{
   text-align: center;
   font-size:30px;
 }
-
+.progbar{
+  color:red;
+}
+.progbarry{
+  color:red;
+}
 .linky{
   font-size: 20px;
   text-decoration: none;
   background-color: red;
   color:white;
-
+  
 }
 .linky:hover{
   background-color:black;
+}
+.headexp{
+  position:relative;
+  color:black;
+  font-size: 50px;
+  left: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  top:32px;
+  border-bottom-color: red;
+  border-bottom-style: solid;
+}
+
+#progressbar {
+  background-color: grey;
+  border-radius: 13px;
+  width: 400px;
+  padding: 3px;
+  position:relative;
+  top:80px;
+  left: 30px;
+}
+
+#progressbar>div {
+  background-color: red;
+  width: 25%;
+  height: 20px;
+  border-radius: 10px;
+}
+.per{
+  color: black;
+  position:relative;
+  font-style: italic;
+  top:59px;
+  font-size: 20px;
+  left: 500px;
+}
+.descript{
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  top:100px;
+  left:32px;
+
+}
+.src{
+  position: relative;
+  top:100px;
+  font-style: italic;
+  left:36px;
+}
+.donator{
+  position: relative;
+  color:black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  top:130px;
+  left: 32px;
+}
+.buttons{
+  position: relative;
+  top:180px;
+  left:32px;
+}
+.result{
+  position: relative;
+  color:black;
+  top:185px;
+  left:32px;
+}
+.pay{
+  font-size: 20px;
+  position: relative;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color:red;
+  top:20px;
+  left:500px;
+  border-radius: 13px;
+}
+.paylink{
+  text-decoration: none;
+  font-style: none;
+}
+.pay:hover{
+  background-color: green;
 }

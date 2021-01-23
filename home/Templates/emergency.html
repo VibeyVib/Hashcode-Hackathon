@@ -1,0 +1,56 @@
+{% load static %}
+<html>
+    <head><link rel="stylesheet" type="text/css" href="{% static 'home/main.css' %}">
+      <script type="text/javascript" src="calc.js"></script>
+    </head>
+    <body>
+        <title>Good Samaritan</title>
+
+        <a href="main.html"><img class="logo" src="{% static 'home/download.jpg' %}"></img></a>
+        <h1 class="head">Good Samaritan</h1>
+      <div class="topnav">
+        <a class="active" href="main.html"></a>
+        <div class="topnav-right">
+            <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+          <a href="https://www.giveindia.org/certified-indian-ngos">NGO'S</a>
+          <a href="mappy.html">Donate!!</a>
+        </div>
+      </div>
+    <p class="para">Welcome to Good Samaritan!</br> A gateway to philanthropic and charitable causes.
+    </p>
+    
+
+</div>
+<h7 class="headexp">Welcome to the Emergency Donation Page</h7>
+<div id="progressbar">
+  <div></div>
+</div>
+<h8 class="per">[25% of total goal achieved.(2500 of 10000 Masks Recieved)]</h8>
+<!--<h9 class="descript"></br>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.</br>
+Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.</br>  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.</h9>
+<p8 class="src">[Source:WHO]</p8>
+<h10 class="donator"></br>Your donation can help save the lives of many.</br>Please input the amount of money you are willing to donate: </h10>-->
+{%csrf_token%}
+<form action="emergency" method="post">
+{%csrf_token%}
+    <label for="Amount">Amount: </label>
+    <input id="Amount" type="text" name="Amount" >
+    <input type="submit" value="Donate">
+</form>
+
+
+<!--<form action = "#" method ="POST" >
+{%csrf_token%}
+  <input type="text" id="firstNumber" /><br>
+  AMOUNT: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text"></input>
+  <input type="submit" Value="Donate" />
+  </form>-->
+
+  <p class="result">The Result is : <br>
+  <span id = "result"></span>
+  
+
+  <button type="menu" input="text" class="pay"><a href="payment.html">Proceed to Payment gateway</a></button>
+</body>
+</html>
