@@ -305,6 +305,8 @@ p3{
   border-bottom-style: solid;
 }
 .progress_bar {
+  position: relative;
+  top: -500px;
   height: 15px;
   background: orange;
   width: 0%;
@@ -317,16 +319,16 @@ p3{
 }
 .psev{
   position:relative;
-  top:70px;
-  left:430px;
+  top:50px;
+  left:50px;
 }
 .pseva{
   position:relative;
-  top:70px;
-  left:730px;
+  top:50px;
+  left:550px;
 }
 .psevas{
   position:relative;
-  top:70px;
-  left: 950px;
+  top:50px;
+  left:950px;
 }
