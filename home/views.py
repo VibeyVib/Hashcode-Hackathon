@@ -7,3 +7,6 @@ def seehome(request):
 
 def seemap(request):
     return render(request, 'mappy.html')
+
+def seenews(request):
+    return render(request, 'news.html')

@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', views.seehome),
     path('home/map/', views.seemap),
+    path('home/news', views.seenews),
 ]
