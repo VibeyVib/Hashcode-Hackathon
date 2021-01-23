@@ -1,14 +1,13 @@
-{% load static %}
 <html>
     <html>
-        <head><link rel="stylesheet" type="text/css" href="{% static 'home/main.css' %}">
+        <head><link rel="stylesheet" href="main.css">
           <script type="text/javascript" src="calc.js"></script>
         </head>
         <body>
             <title>Good Samaritan</title>
     
-            <a href="main.html"><img class="logo" src="{% static 'home/download.jpg' %}"></img></a>
-            <h1 class="headey">Good Samaritan</h1>
+            <a href="main.html"><img class="logo" src="download.jpg"></img></a>
+            <h1 class="head">Good Samaritan</h1>
           <div class="topnav">
             <a class="active" href="main.html"></a>
             <div class="topnav-right">
@@ -20,11 +19,6 @@
           </div>
         <p class="para">Welcome to Good Samaritan!</br> A gateway to philanthropic and charitable causes.
         </p>
-        <h22 class="rcpt"> Receipt</h22>
-        <img class="scampic" src="{% static 'home/receipt.jpg' %}">
-	Amount<input type="text" name="amt" value="{{amt}}">
-	Unique Id<input type="text" name="code" value="{{code}}">
-
         <p7 class="psev">|Order Confirmation</p7>
         <p9 class="pseva">|Warehouse 1</p9>
         <p10 class="psevas">|Transaction Complete.</p10>
@@ -54,10 +48,13 @@
                 }
               ,100);
             </script>
-         <img class="scampic" src="scam.PNG">
+        <h22 class="rcpt"> Receipt</h22>
+        <img class="scampic" src="scam.PNG">
         <a href="mappy.html"><button type="button" class="buttonthree">Continue Donating</button></a>
         <a href="disp.html"><button type="button" class="buttonfour">Refund/Dispute</button></a>
 <h5 class="ordeetshead">Your order details:</h5>
-        
+ 
+
+
 
 </html>

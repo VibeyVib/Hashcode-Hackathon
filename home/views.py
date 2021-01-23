@@ -22,7 +22,12 @@ def seeemergency(request):
         return render(request, 'payment.html')
     else:
         return render(request, 'emergency.html')
-
+import random
 def seereceipt(request):
-    return render(request, 'receipt.html')
+    print("blah",Amount)
+    fo=open("details.txt", 'a')
+    fo.write(Amount+'\n')
+    fo.close()
+    Code=random.randint(10000000,99999999)
+    return render(request, 'receipt.html',{'amt':Amount,'code':Code})
 

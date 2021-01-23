@@ -225,3 +225,108 @@ p3{
 .pay:hover{
   background-color: green;
 }
+.paygate{
+  position:relative;
+  color:black;
+  font-size: 50px;
+  left: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  top:32px;
+  border-bottom-color: red;
+  border-bottom-style: solid;
+}
+.prompt{
+  position:relative;
+  color:green;
+  font-size:40px ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  top: 180px;
+  left: -30px;
+}
+.buttontwo{
+  color:black;
+  background-color: white;
+  font-size: 25px;
+  text-decoration: none;
+  position: relative;
+  top:260px;
+  left:-550px;
+}
+.buttontwo:hover{
+  background-color: red;
+  transition-delay: 0.6s;
+  transform-style: flat;
+}
+.scampic{
+  position:relative;
+  top:250px;
+  left: 0%;
+  height:auto;
+}
+.rcpt{
+  position:relative;
+  color:black;
+  font-size: 50px;
+  left: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  top:-200;
+  border-bottom-color: red;
+  border-bottom-style: solid;
+}
+.buttonthree{
+  cursor:pointer;
+  background-color: green;
+  position: relative;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  right: -130px;
+  top: 50x;
+  border-radius: 12px;
+}
+.buttonfour{
+  cursor:pointer;
+  background-color: red;
+  position: relative;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  right: -132px;
+  top: 0px;
+  border-radius: 12px;
+}
+.ordeetshead{
+  position:relative;
+  color:black;
+  font-size: 50px;
+  left: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  top:400;
+  border-bottom-color: red;
+  border-bottom-style: solid;
+}
+.progress_bar {
+  height: 15px;
+  background: orange;
+  width: 0%;
+  -moz-transition: all 4s ease;
+  -moz-transition-delay: 1s;
+  -webkit-transition: all 4s ease;
+  -webkit-transition-delay: 1s;
+  transition: all 4s ease;
+  transition-delay: 1s;
+}
+.psev{
+  position:relative;
+  top:70px;
+  left:430px;
+}
+.pseva{
+  position:relative;
+  top:70px;
+  left:730px;
+}
+.psevas{
+  position:relative;
+  top:70px;
+  left: 950px;
+}
