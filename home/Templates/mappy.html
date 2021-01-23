@@ -1,0 +1,98 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Donate to us Now!</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'home/main.css' %}">
+    
+    <a href="main.html"><img class="logo" src="{% static 'home/main.css' %}"></img></a>
+    <h1 class="head">Good Samaritan</h1>
+  <div class="topnav">
+    <a class="active" href="main.html"></a>
+    <div class="topnav-right">
+        <a href="https://www.independent.co.uk/news/when-to-donate-rewards-to-charity-and-when-to-give-cash-charity-bank-account-pandemic-charity-charity-b1761650.html">News</a>
+    <a href="#contact">Contact</a>
+      <a href="ngo.html">NGO'S</a>
+      <a href="mappy.html">Donate!!</a>
+    </div>
+  </div>
+<p class="para">Welcome to Good Samaritan!</br> A gateway to philanthropic and charitable causes.
+</p>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaNdNMg5TeechCW_R7HoM4LHeKLl3k0ZA&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <style type="text/css">
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 80%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script>
+      // The following example creates a marker in Stockholm, Sweden using a DROP
+      // animation. Clicking on the marker will toggle the animation between a BOUNCE
+      // animation and no animation.
+      let marker;
+
+      function initMap() {
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 13,
+          center: { lat: 12.9716, lng: 77.5946 },
+        });
+        marker = new google.maps.Marker({
+          icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
+          map,
+          
+          draggable: true,
+          animation: google.maps.Animation.DROP,
+          position: { lat: 12.9716, lng: 77.5946 },
+          
+        });
+        marker.addListener("click", toggleBounce);
+        new google.maps.Marker({
+    position: { lat: 13.0827, lng: 80.2707 },
+    map,
+    icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
+  });
+  new google.maps.Marker({
+    position: { lat: 9.9252, lng: 78.1198 },
+    map,
+    icon: 'http://maps.google.com/mapfiles/ms/icons/pink-dot.png',
+  });
+      }
+
+      function toggleBounce() {
+        if (marker.getAnimation() !== null) {
+          marker.setAnimation(null);
+        } else {
+          marker.setAnimation(google.maps.Animation.BOUNCE);
+        }
+      }
+    </script>
+  </head>
+  <title>Donations </title>
+  <body>
+    <p3>Use the Map Below to figure out affected areas and places</p3>
+    <div id="map"></div>
+   <ul class="Emergency">
+     <div class="table">
+     <li style="color: red;"><a class="em" href="emergency.html">Emergency</a></li>
+     <li style="color: green;"><a class="green" href="#">Environment</a></li>
+     <li style="color: purple;"><a  class="purple" href="#">Women Empowerment</a></li>
+     </div>
+   </ul>
+  </body>
+</html>

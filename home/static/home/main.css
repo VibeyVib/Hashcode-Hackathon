@@ -1,0 +1,140 @@
+.head{
+    color: red;
+    margin-left: 7%;
+    margin-top: -60;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.logo{
+    height: 90px;
+}
+.topnav {
+    overflow: hidden;
+    position: absolute;
+    text-align: right;
+    top:25px;
+    right:5px;
+}
+
+
+.topnav a {
+  position: relative;
+  float: left;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+  
+}
+
+
+.topnav a:hover {
+  background-color: red;
+  color: black;
+}
+
+
+.topnav a.active {
+  color: white;
+}
+
+
+.topnav-right {
+  float: right;
+  top: -40%;
+  background-color: red;
+}
+.topnav a:hover{
+    color:black;
+}
+.para{
+  position: absolute;
+color:red;
+      top: 2%;
+      left:40%;
+      font-size: 19px;
+      font-family: 'Open Sans', sans-serif;
+  }
+.hero{
+  top: 10 ;
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+
+
+.butty{
+  position: relative;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: red;
+  width:100px;
+  height:70px;
+  background-color:grey;
+  opacity:0.5;
+  cursor:pointer;
+  margin-top: 0px;
+  left: 45%;
+  top:-200;
+  color:white;
+  border-radius: 12px;
+}
+.butty:hover{
+  color:red;
+  background-color:white;
+  opacity:1;
+}
+
+.headey{
+  color: red;
+  font-size: 20px;
+    margin-left: 7%;
+    margin-top: -10;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.table{
+  text-decoration: none;
+  color:red;
+  font-size: 20px;
+  text-align:center;
+  list-style-type: none;
+}
+p3{
+  color:red;
+  left:65px;
+  margin-bottom: 20px;
+  position:relative;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.em{
+  color:red;
+  font-size: 30px;
+ 
+}
+.green{
+  color:green;
+  font-size: 30px;
+}
+.purple{
+  color:purple;
+  text-align: center;
+  font-size:30px;
+}
+
+.linky{
+  font-size: 20px;
+  text-decoration: none;
+  background-color: red;
+  color:white;
+
+}
+.linky:hover{
+  background-color:black;
+}
