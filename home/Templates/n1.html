@@ -1,0 +1,32 @@
+{% load static %}
+<html>
+    <head><link rel="stylesheet" type="text/css" href="{% static 'home/main.css' %}">
+    <title>Good Samaritan</title>
+    
+        <a href="main.html"><img class="logo" src="{% static 'home/download.jpg' %}"></img></a>
+        <h1 class="headey">Good Samaritan</h1>
+      <div class="topnav">
+        <a class="active" href="main.html"></a>
+        <div class="topnav-right">
+            <a href="link.html">News</a>
+        <a href="#contact">Contact</a>
+          <a href="n1.html">NGO'S</a>
+          <a href="mappy.html">Donate!!</a>
+        </div>
+      </div>
+    <p class="para">Welcome to Good Samaritan!</br> A gateway to philanthropic and charitable causes.
+    </p>
+
+ {%csrf_token%}
+<form action="ngo" method="post">
+{%csrf_token%}
+    <label for="NGO">NGO Name: </label>
+    <input id="name" type="text" name="name" >
+    <label for="NGO">NGO Registration ID: </label>
+    <input id="reg" type="text" name="reg" >
+    <input type="submit" class="pay" value="Submit">
+</form>
+<!--<a href="n2.html"><button type="menu" value="Submit" class="buttonsss">Submit</button></a>-->
+
+
+</html>

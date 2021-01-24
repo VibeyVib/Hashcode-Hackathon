@@ -24,4 +24,5 @@ urlpatterns = [
     path('home/news', views.seenews),
     path('home/map/emergency', views.seeemergency),
     path('home/map/receipt',views.seereceipt),
+    path('home/ngo', views.seengo),
 ]

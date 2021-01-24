@@ -31,3 +31,14 @@ def seereceipt(request):
     Code=random.randint(10000000,99999999)
     return render(request, 'receipt.html',{'amt':Amount,'code':Code})
 
+
+def seengo(request):
+    if request.method=="POST":
+        name=request.POST["name"]
+        reg=request.POST["reg"]
+        l=["40/94-95","1143/2001-2002","766/97-98","184/86-87","444:94-95"]
+        if reg in l:
+            return render(request, 'n2.html')
+        else:
+            return render(request, 'n3.html')
+    return render(request, 'n1.html')

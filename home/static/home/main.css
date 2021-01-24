@@ -305,8 +305,6 @@ p3{
   border-bottom-style: solid;
 }
 .progress_bar {
-  position: relative;
-  top: -500px;
   height: 15px;
   background: orange;
   width: 0%;
@@ -319,16 +317,57 @@ p3{
 }
 .psev{
   position:relative;
-  top:50px;
-  left:50px;
+  top:70px;
+  left:430px;
 }
 .pseva{
   position:relative;
-  top:50px;
-  left:550px;
+  top:70px;
+  left:730px;
 }
 .psevas{
   position:relative;
-  top:50px;
-  left:950px;
+  top:70px;
+  left: 950px;
+}
+.loginstuff{
+  position:relative;
+  color:black;
+  font-size: 50px;
+  left: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  top:90;
+  border-bottom-color: red;
+  border-bottom-style: solid;
+}
+.boxx{
+  position:relative;
+  left:590px;
+  top: 130px;
+}
+.buttonsss{
+  position:relative;
+  top: 135px;
+  left: 640px;
+  cursor:pointer;
+}
+.success{
+  position:relative;
+  color:black;
+  font-size: 50px;
+  left: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  top:90;
+  border-bottom-color: red;
+  border-bottom-style: solid;
+}
+.rejection{
+  position:relative;
+  color:black;
+  font-size: 50px;
+  left: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  top:90;
+  border-bottom-color: red;
+  border-bottom-style: solid;
 }
